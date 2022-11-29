@@ -1,0 +1,49 @@
+Html: html (hypertext markup language) is the most fundimental structure of the web. It defines the meaning and layout of web content. 
+"Hypertext" refers to the links that connect webpages to each other, either with-in the same or multiple websites.
+"Markup" is used to annotate text, images, and other content for display in the browser.
+https://developer.mozilla.org/en-US/docs/Web/HTML
+
+<h1>-<h6>: The h1 through h6 heading elements are used to describe the significance of the subject under them. The lower the number, the more important it is.
+Only use a single h1 per page and place anything less important (h2, etc) below it. 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+
+<p>: The <p> element represents a paragraph which can be a typical block of text or any structural grouping of related content, such as images or form fields.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
+
+Commenting: Commenting lets you to leave messages without affecting the browser page. It also lets you to make code inactive. A comment in HTML starts with <!--, contains any number of lines of text, and ends with -->
+https://developer.mozilla.org/en-US/docs/Web/API/Comment
+
+<main>: The <main> element represents the primary subject matter of the <body> of a document. The main content area consists of content that is connected to or further... 
+explains the central topic of a document or base fuction of a program. 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+
+Nesting: Nesting is the action of placing one element inside another. The element that is being placed inside is referred to as a child. The element it is being placed...
+of is called the parent. Nested elements should be placed two spaces further to the right of the element they are nested in. This spacing is called indentation...
+and it is used to make HTML easier to read.
+https://www.alibabacloud.com/topic-center/tech/2/cl38z9yio7rk-what-is-nesting-in-computer-programming-alibaba-cloud#:~:text=Nesting%20is%20a%20term%20used,referred%20to%20as%20the%20parent.
+
+<img>: The <img> element inserts an image into a document. The src attribute is required, and contains the path to the image you want to embed.  
+img elements have an opening tag without a closing tag. A tag for an element without a closing tag is known as a self-closing tag.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+
+Attributes: HTML attributes are special words used inside the opening tag of an element to control it's actions. Ex: The src attribute in an img element specifies the...
+image's location.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+
+The Alt attribute is an alternative text used in case an image can't be shown. It's best practice to make the text related to the picture.
+https://www.w3schools.com/tags/att_area_alt.asp#:~:text=The%20alt%20attribute%20specifies%20an,user%20uses%20a%20screen%20reader).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
