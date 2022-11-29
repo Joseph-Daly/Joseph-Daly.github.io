@@ -30,8 +30,54 @@ Attributes: HTML attributes are special words used inside the opening tag of an 
 image's location.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 
-The Alt attribute is an alternative text used in case an image can't be shown. It's best practice to make the text related to the picture.
+alt: The alt attribute is an alternative text used in case an image can't be shown. It's best practice to make the text related to the picture.
 https://www.w3schools.com/tags/att_area_alt.asp#:~:text=The%20alt%20attribute%20specifies%20an,user%20uses%20a%20screen%20reader).
+
+<a>: The <a> (anchor) element uses a href attribute to create a hyperlink to online pages, files, email addresses, same page locations or anything else a URL can use.
+A link's text must be placed between the opening and closing tags of an anchor element.
+ex: <li><a href="https://htmlnotes.com">Website</a></li>
+You can do the same to words inside of an element, such as a p element.
+ex: <p>To study more html lexicon, view <a href="https://htmlnotes.com">this page</a>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+
+target: The target attribute states where to open a linked document. Adding the value "_blank", for example,	Opens the linked document in a new window or tab.
+https://www.w3schools.com/tags/att_a_target.asp
+
+<section>: The section element represents a general independent part of a document, which doesn't have a specific element to represent it. It's good practice...
+to include a heading to better categorize things.
+ex: <section>
+    <h2>Introduction</h2>
+    <p>This document provides a guide to help users with the task of choosing the correct Banana.</p>
+    </section>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+
+<li>: The <li> element is used to represent an item in a list. It has to be contained in a parent element: <ol> (ordered list), <ul> (unordered list), or <menu>...
+(menu).
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+
+<ul>: The <ul> element represents an unordered list of items, usually set as a bulleted list. It's for grouping a collection of items that do not have a ...
+specific ordering and their placement is meaningless.
+ex: <ul>
+      <li>coffee</li>
+      <li>fruit
+        <ul>
+          <li>bananas</li>
+          <li>cherries</li>
+        </ul>
+      </li>
+    </ul>  
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul#:~:text=The%20element%20is%20for,a%20circle%2C%20or%20a%20square.
+
+<ol>: The <ol> element represents an ordered list of items, usually set as a numbered list. It's for grouping items whos placement is important, such as a recipe.
+ex: <ol> 
+      <li>DO</li>
+      <li>RE<li>
+      <li>ME<li>
+    </ol>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol    
+
+
+
 
 
 
