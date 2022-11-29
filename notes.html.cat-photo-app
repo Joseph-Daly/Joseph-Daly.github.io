@@ -76,6 +76,26 @@ ex: <ol>
     </ol>
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol    
 
+<figure>: The <figure> element represents self-contained content, with an optional caption specified using the <figcaption> element.  The figure, its caption,...
+and its contents are referenced as a single unit.
+<figcaption>: The <figcaption> element represents a caption or legend detailing the rest of the contents of its parent <figure> element.
+ex: <figure>
+    <img src="/media/cc0-images/elephant-660-480.jpg"
+         alt="Elephant at sunset">
+    <figcaption>An elephant at sunset</figcaption>
+</figure>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+
+<em>: The <em> element marks text that have stress emphasis. It can be nested and is used for words that have a stressed emphasis compared to surrounding text,...
+affecting the meaning of the sentence itself.
+ex: <p>We have to leave <em>now</em>!</p>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
+
+<strong>: The strong element is used to address that a text is of strong importance or urgent. This could be a word, a few words, or a whole sentence that need...
+to stand out on a whole page. Browsers usually render it's contents in bold type. 
+ex: <p>It's always important to <strong>save your work</strong>.</p>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong
 
 
 
