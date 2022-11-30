@@ -1,47 +1,47 @@
 Html: html (hypertext markup language) is the most fundimental structure of the web. It defines the meaning and layout of web content. 
 "Hypertext" refers to the links that connect webpages to each other, either with-in the same or multiple websites.
 "Markup" is used to annotate text, images, and other content for display in the browser.
-https://developer.mozilla.org/en-US/docs/Web/HTML
+ https://developer.mozilla.org/en-US/docs/Web/HTML
 
 <h1>-<h6>: The h1 through h6 heading elements are used to describe the significance of the subject under them. The lower the number, the more important it is.
 Only use a single h1 per page and place anything less important (h2, etc) below it. 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
 
 <p>: The <p> element represents a paragraph which can be a typical block of text or any structural grouping of related content, such as images or form fields.
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
 
 Commenting: Commenting lets you to leave messages without affecting the browser page. It also lets you to make code inactive. A comment in HTML starts with <!--, contains any number of lines of text, and ends with -->
-https://developer.mozilla.org/en-US/docs/Web/API/Comment
+ https://developer.mozilla.org/en-US/docs/Web/API/Comment
 
 <main>: The <main> element represents the primary subject matter of the <body> of a document. The main content area consists of content that is connected to or further... 
 explains the central topic of a document or base fuction of a program. 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
 
 Nesting: Nesting is the action of placing one element inside another. The element that is being placed inside is referred to as a child. The element it is being placed...
 of is called the parent. Nested elements should be placed two spaces further to the right of the element they are nested in. This spacing is called indentation...
 and it is used to make HTML easier to read.
-https://www.alibabacloud.com/topic-center/tech/2/cl38z9yio7rk-what-is-nesting-in-computer-programming-alibaba-cloud#:~:text=Nesting%20is%20a%20term%20used,referred%20to%20as%20the%20parent.
+ https://www.alibabacloud.com/topic-center/tech/2/cl38z9yio7rk-what-is-nesting-in-computer-programming-alibaba-cloud#:~:text=Nesting%20is%20a%20term%20used,referred%20to%20as%20the%20parent.
 
 <img>: The <img> element inserts an image into a document. The src attribute is required, and contains the path to the image you want to embed.  
 img elements have an opening tag without a closing tag. A tag for an element without a closing tag is known as a self-closing tag.
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 
 Attributes: HTML attributes are special words used inside the opening tag of an element to control it's actions. Ex: The src attribute in an img element specifies the...
 image's location.
-https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 
 alt: The alt attribute is an alternative text used in case an image can't be shown. It's best practice to make the text related to the picture.
-https://www.w3schools.com/tags/att_area_alt.asp#:~:text=The%20alt%20attribute%20specifies%20an,user%20uses%20a%20screen%20reader).
+ https://www.w3schools.com/tags/att_area_alt.asp#:~:text=The%20alt%20attribute%20specifies%20an,user%20uses%20a%20screen%20reader).
 
 <a>: The <a> (anchor) element uses a href attribute to create a hyperlink to online pages, files, email addresses, same page locations or anything else a URL can use.
 A link's text must be placed between the opening and closing tags of an anchor element.
 ex: <li><a href="https://htmlnotes.com">Website</a></li>
 You can do the same to words inside of an element, such as a p element.
 ex: <p>To study more html lexicon, view <a href="https://htmlnotes.com">this page</a>
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
 target: The target attribute states where to open a linked document. Adding the value "_blank", for example,	Opens the linked document in a new window or tab.
-https://www.w3schools.com/tags/att_a_target.asp
+ https://www.w3schools.com/tags/att_a_target.asp
 
 <section>: The section element represents a general independent part of a document, which doesn't have a specific element to represent it. It's good practice...
 to include a heading to better categorize things.
@@ -49,11 +49,11 @@ ex: <section>
     <h2>Introduction</h2>
     <p>This document provides a guide to help users with the task of choosing the correct Banana.</p>
     </section>
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
 
 <li>: The <li> element is used to represent an item in a list. It has to be contained in a parent element: <ol> (ordered list), <ul> (unordered list), or <menu>...
 (menu).
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
 
 <ul>: The <ul> element represents an unordered list of items, usually set as a bulleted list. It's for grouping a collection of items that do not have a ...
 specific ordering and their placement is meaningless.
@@ -66,7 +66,7 @@ ex: <ul>
         </ul>
       </li>
     </ul>  
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul#:~:text=The%20element%20is%20for,a%20circle%2C%20or%20a%20square.
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul#:~:text=The%20element%20is%20for,a%20circle%2C%20or%20a%20square.
 
 <ol>: The <ol> element represents an ordered list of items, usually set as a numbered list. It's for grouping items whos placement is important, such as a recipe.
 ex: <ol> 
@@ -74,7 +74,7 @@ ex: <ol>
       <li>RE<li>
       <li>ME<li>
     </ol>
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol    
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol    
 
 <figure>: The <figure> element represents self-contained content, with an optional caption specified using the <figcaption> element.  The figure, its caption,...
 and its contents are referenced as a single unit.
@@ -84,18 +84,39 @@ ex: <figure>
          alt="Elephant at sunset">
     <figcaption>An elephant at sunset</figcaption>
 </figure>
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
 
 <em>: The <em> element marks text that have stress emphasis. It can be nested and is used for words that have a stressed emphasis compared to surrounding text,...
 affecting the meaning of the sentence itself.
 ex: <p>We have to leave <em>now</em>!</p>
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
 
 <strong>: The strong element is used to address that a text is of strong importance or urgent. This could be a word, a few words, or a whole sentence that need...
 to stand out on a whole page. Browsers usually render it's contents in bold type. 
 ex: <p>It's always important to <strong>save your work</strong>.</p>
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong
+
+<form>: The <form> element represents a page section containing usable controls for submitting information. It should be used with attributes such as the action... 
+attribute for it to be interactive.
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+~
+action: The action attribute states where to send the the form-data after a form in submitted.  
+https://www.w3schools.com/tags/att_form_action.asp
+~
+<input>: The <input> element allows you to interactively collect data in several different ways from a web form. <input> elements are self-closing, just like <img>...
+elements.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+~
+type: The type attribute defines the type of <input> to display. If the type isn't specified, the default will be "text".
+https://www.w3schools.com/tags/att_input_type.asp
+~
+name: The name attribute is used in text fields to assign it a value representting the data being submitted and so it can be accessed by the location in the action...
+attribute.
+https://www.w3schools.com/tags/att_input_name.asp#:~:text=The%20name%20attribute%20specifies%20the,passed%20when%20submitting%20a%20form.
+~
+
+
 
 
 
