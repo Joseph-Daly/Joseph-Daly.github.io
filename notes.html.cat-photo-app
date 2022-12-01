@@ -115,9 +115,26 @@ name: The name attribute is used in text fields to assign it a value representti
 attribute.
 https://www.w3schools.com/tags/att_input_name.asp#:~:text=The%20name%20attribute%20specifies%20the,passed%20when%20submitting%20a%20form.
 ~
+placeholder: The placeholder attribute is a text to give users a hint about what kind of info to enter into a field.
+https://www.w3schools.com/tags/att_input_placeholder.asp
+~
+required: The required attribute indicates that the user must type the suggested information for the input before the form can be submitted. It's not necessary...
+ to add a value to the required attribute. 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required
+<button>: The <button> element is an interactive element activated by users with a keyboard, mouse, touch screen, voice, or other such technology. once used, it...
+ it preforms a changeable action, like submitting a form. By default, clicking a form button without any attributes submits the form to the location specified...
+ in the form's action attribute.  
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
 
-
-
+Inline elements: Inline elements are those that only span the space set by the element's tags, instead of breaking the content flow, such as a <span> element.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
+~
+Block elements: A block-level element occupies the entire horizontal space of it's parent element (HTML), and vertical space equal to it's contents, creating...
+a 'block' of unbroken content, such as a <div> element.
+ex: <div>
+      The following span text is an <span>inline element</span>; everything else falls into the div text, which is a block-level element.
+    </div>  
+https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
 
 
 
