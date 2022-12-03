@@ -175,6 +175,9 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
 part of the form.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
 
+"checkbox": The <input type="checkbox"> defines an actual square box that is marked when clicked. It lets a user pick one or more options in a form.
+It's best practice to add a <label> tag for added accessibility.
+https://www.w3schools.com/tags/att_input_type_checkbox.asp
 
 
 
