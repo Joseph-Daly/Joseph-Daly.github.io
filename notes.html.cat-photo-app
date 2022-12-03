@@ -108,6 +108,11 @@ https://www.w3schools.com/tags/att_form_action.asp
 elements.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 ~
+<label>: The <label> element is used to create a caption for a form control with associated elements, such as <input> or <textarea> to help users and screen readers
+It can be associated with a form control by placing the control element inside the <label> element or by including the for attribute in the label using the id of...
+ the form control as the for attribute's value
+https://www.wufoo.com/html5/label-element/
+~
 type: The type attribute defines the type of <input> to display. If the type isn't specified, the default will be "text".
 https://www.w3schools.com/tags/att_input_type.asp
 ~
@@ -118,9 +123,19 @@ https://www.w3schools.com/tags/att_input_name.asp#:~:text=The%20name%20attribute
 placeholder: The placeholder attribute is a text to give users a hint about what kind of info to enter into a field.
 https://www.w3schools.com/tags/att_input_placeholder.asp
 ~
+id: The id attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id
+~
+value: The value attribute defines the value of an <input> element. It's used differently for various <input> types. 
+"button", "reset", and "submit" - defines the text on the button
+ "text", "password", and "hidden" - decribes the default value of the input field
+ "checkbox", "radio", "image" - defines the value associated with the input
+ https://www.w3schools.com/tags/att_input_value.asp#:~:text=The%20value%20attribute%20specifies%20the,value%20of%20the%20input%20field
+~
 required: The required attribute indicates that the user must type the suggested information for the input before the form can be submitted. It's not necessary...
  to add a value to the required attribute. 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required
+~
 <button>: The <button> element is an interactive element activated by users with a keyboard, mouse, touch screen, voice, or other such technology. once used, it...
  it preforms a changeable action, like submitting a form. By default, clicking a form button without any attributes submits the form to the location specified...
  in the form's action attribute.  
@@ -136,7 +151,29 @@ ex: <div>
     </div>  
 https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
 
+radio: "radio" is a value of the type attribute that lets a user select only one of a limited number of choices. 
+ex:
+<form>
+  <input type="radio" id="coffee" name="fav_drink" value="Coffee">
+  <label for="coffee">Coffee</label><br>
+  <input type="radio" id="tea" name="fav_drink" value="Tea">
+  <label for="tea">Tea</label><br>
+  <input type="radio" id="water" name="fav_drink" value="Water">
+  <label for="water">Water</label>
+</form>  
+https://www.w3schools.com/tags/att_input_type_radio.asp
 
+<br: The <br> (Line Break) element creates a single break in text (ex: carriage-return key). It's useful for poems, addresses, etc., where the division of...
+lines is meaningful.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br#:~:text=The%20HTML%20element%20produces,division%20of%20lines%20is%20significant.
+ 
+<fieldset>: The <fieldset> element is used to group related inputs and labels together in a web form. <fieldset> is a block-level element, meaning it appears on...
+a new line.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
+
+<legend>: The legend element acts as a caption for the content in it's parent <fieldset> element. It gives users context about what they should enter into that... 
+part of the form.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
 
 
 
