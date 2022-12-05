@@ -179,6 +179,36 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
 It's best practice to add a <label> tag for added accessibility.
 https://www.w3schools.com/tags/att_input_type_checkbox.asp
 
+checked: The checked attribute specifies that an element should be already selected after the page loads. It can be used with both <input type="radio">...
+and <input type="checkbox">.
+https://www.w3schools.com/tags/att_input_checked.asp
+
+<footer>: The <footer> element defines the footer (or bottom) of a section or document. It contained lines, such as: author info, copyright info, contact info,...
+sitemap, back to top links, related content, etc. 
+https://www.w3schools.com/tags/tag_footer.asp
+
+<title>: The <title> HTML element defines the document's title that is presented in the brower's title bar or page tab, which only contains text.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
+
+lang: The lang attribute specifies the language on an elements content. Some examples are setting it's value to "en" for English, "es" for Spanish, "fr" for...
+French, etc.
+https://www.w3schools.com/tags/att_global_lang.asp
+
+<!DOCTYPE html>: All HTML documents should begin with a <!DOCTYPE> declaration. The declaration isn't an HTML, but "information" to the browser about what...
+document type to expect.
+https://www.w3schools.com/tags/tag_doctype.asp
+
+<meta>: The <meta> element is a self closing tag added to the <head> element to set a browser's behavior. You can tell the browser to parse the mark-up into...
+multiple languages by creating a <meta> element as a child on the <head> element and give it a charset attribute set to UTF-8 
+https://www.w3schools.com/tags/tag_meta.asp
+
+
+
+
+
+
+
+
 
 
 
