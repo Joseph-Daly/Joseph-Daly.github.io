@@ -202,9 +202,9 @@ https://www.w3schools.com/tags/tag_doctype.asp
 multiple languages by creating a <meta> element as a child on the <head> element and give it a charset attribute set to UTF-8 
 https://www.w3schools.com/tags/tag_meta.asp
 
-
-
-
+<style>: The <style> element utilizes design info for a document through CSS and must be included inside the <head> of the document. It's better practice to...
+ put your styles in external stylesheets and apply them using <link> elements.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style
 
 
 
