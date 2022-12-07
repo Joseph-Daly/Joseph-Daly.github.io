@@ -1,0 +1,31 @@
+<style>: The <style> element utilizes design info for a document through CSS and must be included inside the <head> of the document. It's better practice to...
+ put your styles in external stylesheets and apply them using <link> elements.
+ ex: for html: <link rel="stylesheet" href="styles.css">
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style
+
+text-align: text-align is a property that horizontally sets inline-level content inside a block element. It works like vertical-align but in the horizontal direction.
+It must be directed using the keyword values: start, end, left, right, center, justify, justify-all, or match-parent.
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+
+Mobile: To make a page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
+ex: <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
