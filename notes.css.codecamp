@@ -7,16 +7,16 @@ text-align: text-align is a property that horizontally sets inline-level content
 It must be directed using the keyword values: start, end, left, right, center, justify, justify-all, or match-parent.
 https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 
-Mobile: To make a page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
-ex: <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
+background-color: The background-color property sets the background color of an element. It's values can be key words (red, green, etc), hexadecimal (#bbff00),... 
+rgb (rgba(117, 190, 218, 0.5); /* 50% transparent */), hsl (hsl(50, 33%, 25%)), etc.
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
 
-
-
-
-
-
-
+width: The width property sets an element's width. By default, it sets the width of the content area.
+ex: width: 100px; 
+width: 75%;
+width: 25em;
+width: auto;
+https://developer.mozilla.org/en-US/docs/Web/CSS/width
 
 
 
