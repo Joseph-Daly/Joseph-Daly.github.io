@@ -201,10 +201,29 @@ https://www.w3schools.com/tags/tag_doctype.asp
 <meta>: The <meta> element is a self closing tag added to the <head> element to set a browser's behavior. You can tell the browser to parse the mark-up into...
 multiple languages by creating a <meta> element as a child on the <head> element and give it a charset attribute set to UTF-8 
 https://www.w3schools.com/tags/tag_meta.asp
+~
+Mobile: To make a page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
+ex: <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
 
 <style>: The <style> element utilizes design info for a document through CSS and must be included inside the <head> of the document. It's better practice to...
  put your styles in external stylesheets and apply them using <link> elements.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style
+
+<div>: The <div> HTML element is the generic container with no contect effect until styled in some way using CSS 
+(ex: styling is directly applied to it, or some kind of model like Flexbox is applied).
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+
+
+
+
+
+
+
+
+
+
+
 
 
 
