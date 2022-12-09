@@ -10,7 +10,8 @@ Only use a single h1 per page and place anything less important (h2, etc) below 
 <p>: The <p> element represents a paragraph which can be a typical block of text or any structural grouping of related content, such as images or form fields.
  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
 
-Commenting: Commenting lets you to leave messages without affecting the browser page. It also lets you to make code inactive. A comment in HTML starts with <!--, contains any number of lines of text, and ends with -->
+Commenting: Commenting lets you to leave messages without affecting the browser page. It also lets you to make code inactive. A comment in HTML starts with...
+<!--, contains any number of lines of text, and ends with -->
  https://developer.mozilla.org/en-US/docs/Web/API/Comment
 
 <main>: The <main> element represents the primary subject matter of the <body> of a document. The main content area consists of content that is connected to or further... 
@@ -26,7 +27,8 @@ and it is used to make HTML easier to read.
 img elements have an opening tag without a closing tag. A tag for an element without a closing tag is known as a self-closing tag.
  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 
-Attributes: HTML attributes are special words used inside the opening tag of an element to control it's actions. Ex: The src attribute in an img element specifies the...
+Attributes: HTML attributes are special words used inside the opening tag of an element to control it's actions. 
+Ex: The src attribute in an img element specifies the...
 image's location.
  https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 
@@ -214,7 +216,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style
 (ex: styling is directly applied to it, or some kind of model like Flexbox is applied).
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
 
-
+<article>: 
 
 
 
