@@ -216,7 +216,14 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style
 (ex: styling is directly applied to it, or some kind of model like Flexbox is applied).
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
 
-<article>: 
+<article>: The <article> tag defines independent, self-contained content. An article should make sense on its own without help from the rest of the document.
+ex: <article>
+    <h1>Weather forecast for Chicago</h1>
+        <h2>December 25, 2022</h2>
+        <p>Snow.</p>
+    </article>
+https://www.w3schools.com/tags/tag_article.asp
+
 
 
 
