@@ -18,6 +18,51 @@ width: 25em;
 width: auto;
 https://developer.mozilla.org/en-US/docs/Web/CSS/width
 
+commenting: CSS comments are not displayed in the browser, but they can help document your source code, just like html comments.
+/* This is a single-line comment */
+https://www.w3schools.com/css/css_comments.asp
+
+margin: Margins are used to create space around elements, outside of any defined borders.
+CSS has properties for adjusting the margin for each side of an element such as: 
+margin-top
+margin-right
+margin-bottom
+margin-left
+Margin properties can have the following values, like:
+auto - the browser defines the margin
+length - specifies a margin in px, pt, cm, etc.
+% - specifies a margin in % of the width of the containing element
+inherit - specifies that the margin should be inherited from the parent element
+https://www.w3schools.com/css/css_margin.asp
+
+class selector: The .class selector selects elements with a specific class attribute. To select elements with a specific class, write a period (.)followed...
+by the name of the class.
+.task-list {
+  background-color: yellow;
+}
+https://www.w3schools.com/CSSREF/sel_class.php
+
+background-image: The background-image property sets one or more background images for an element.
+By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
+body {
+ background-image: url("java.gif");
+ background-color: #cccccc;
+}
+https://www.w3schools.com/cssref/pr_background-image.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
