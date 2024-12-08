@@ -1,0 +1,19 @@
+#from Replit
+
+Day 57: Recursion
+Recursion is a type of program where you get a subroutine to call itself. 
+Recursion lets us solve problems in a more human way. 
+Some mathematical problems can just be solved better using recursion.
+Ex: We want to print out a sequence of the same emoji, reducing by 2 emojis per line. (eg print a row of 9, then a row of 7, then 5, etc. until we get none).
+Ex:
+def reverse(value):
+  if value <= 0:
+    print("Done!")
+    return
+  # This `if` provides the 'stop' condition for the program. Otherwise it would run forever.
+  else: # if we're not at the stop condition.
+    for i in range(value):
+      print("💯", end="") # Outputs 'value' emojis
+    print() # New line
+    reverse(value - 2) # takes 2 off the value and calls the subroutine again with this new number. Eg if value was 7 it would call 'reverse(value)' again with value as 5.
+reverse(5)
