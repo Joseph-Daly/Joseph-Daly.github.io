@@ -1,5 +1,16 @@
 #from Replit
 
+Day 1: Print Statements
+To put anytext on screen, it has to be in quotes "", and those quotes have to be in brackets () with a lower case print in front.
+A bunch of text is called a String.
+Ex: print("Hello There")
+Use the triple quote """ if you want to write a big chunk of text with gaps or line breaks.
+Ex: print("""Anything that starts
+with three quotes, and ends
+in three quotes can span
+many lines and even contain " symbols
+within it without freaking anything out!""")
+
 Day 57: Recursion
 Recursion is a type of program where you get a subroutine to call itself. 
 Recursion lets us solve problems in a more human way. 
