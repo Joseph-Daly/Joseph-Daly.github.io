@@ -11,6 +11,22 @@ in three quotes can span
 many lines and even contain " symbols
 within it without freaking anything out!""")
 
+Day 2: Input
+Input is when the user gives information to the computer.
+It's very similar to the print command, except that it'll show the message in the console then wait until the user has typed something into the console and pressed enter.
+Ex: input("What's your name?: ")
+Input asks for something, takes it, but then has nowhere to put it. We can change that with a variable which is a value that we can use to name and store data.
+You can give a variable any name you want, but you can't use spaces. You can use:
+underscores_between_words (snake case)
+camelCaseToMakeItEasierToRead
+Ex: 
+myName = input("What's you name? ")
+myAge = input("How old are you? ")
+You can print your variable using print and the name you used for your variable in your input command.
+Ex:
+print(myName)
+print(myAge)
+
 Day 57: Recursion
 Recursion is a type of program where you get a subroutine to call itself. 
 Recursion lets us solve problems in a more human way. 
@@ -28,3 +44,8 @@ def reverse(value):
     print() # New line
     reverse(value - 2) # takes 2 off the value and calls the subroutine again with this new number. Eg if value was 7 it would call 'reverse(value)' again with value as 5.
 reverse(5)
+
+Day 58: Debugger
+See lesson
+
+
