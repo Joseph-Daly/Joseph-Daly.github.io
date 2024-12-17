@@ -48,4 +48,29 @@ reverse(5)
 Day 58: Debugger
 See lesson
 
+Day 60: Unix Epoch
+Computers use something called the Unix epoch to measure time.
 
+It counts the amount of seconds elapsed since Jan 1st, 1970 (even when the power's off - there's a small battery on your motherboard that keeps this function running).
+To use the Unix epoch, we first need to import the datetime library
+Ex: import datetime
+You can then insert a date and assign it to a variable. You HAVE to use the year -> month -> day format for your arguments.
+Ex:
+import datetime
+myDate = datetime.date(year=2022, month=12, day= 7)
+print(myDate)
+# This code outputs '2022-12-07'
+You can also use datetime to automatically get today's date.
+Ex:
+import datetime
+today = datetime.date.today()
+print(today)
+# This code outputs the current date from your computer's clock.
+...or you can get the date from the user as serperate variables.
+Ex:
+import datetime
+day = int(input("Day: ")) # Get all input as numbers. We're not at text input for months yet.
+month = int(input("Month: "))
+year = int(input("Year: "))
+date = datetime.date(year, month, day)
+print(date)
