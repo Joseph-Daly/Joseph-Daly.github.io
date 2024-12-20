@@ -1,7 +1,7 @@
 #from Replit
 
 Day 1: Print Statements
-To put anytext on screen, it has to be in quotes "", and those quotes have to be in brackets () with a lower case print in front.
+To put any text on screen, it has to be in quotes "", and those quotes have to be in brackets () with a lower case print in front.
 A bunch of text is called a String.
 Ex: print("Hello There")
 Use the triple quote """ if you want to write a big chunk of text with gaps or line breaks.
@@ -15,17 +15,31 @@ Day 2: Input
 Input is when the user gives information to the computer.
 It's very similar to the print command, except that it'll show the message in the console then wait until the user has typed something into the console and pressed enter.
 Ex: input("What's your name?: ")
-Input asks for something, takes it, but then has nowhere to put it. We can change that with a variable which is a value that we can use to name and store data.
+-
+Input asks for something, takes it, but then has nowhere to put it. 
+We can change that with a variable which is a value that we can use to name and store data.
 You can give a variable any name you want, but you can't use spaces. You can use:
 underscores_between_words (snake case)
 camelCaseToMakeItEasierToRead
 Ex: 
 myName = input("What's you name? ")
 myAge = input("How old are you? ")
+-
 You can print your variable using print and the name you used for your variable in your input command.
 Ex:
 print(myName)
 print(myAge)
+
+Day 3: Concatenate
+All it really means is combine text (remember, text is called a string) and variables together into single sentences!
+EX:
+myName = input("What's your name? ")
+myLunch = input("What are you having for lunch? ")
+print(myName, "is going to be chowing down on", myLunch, "very soon!")
+-
+With the print function, we can print out as many different things as we please. 
+All we have to do is plant a comma , between every different thing in the ()
+
 
 Day 57: Recursion
 Recursion is a type of program where you get a subroutine to call itself. 
@@ -54,18 +68,21 @@ Computers use something called the Unix epoch to measure time.
 It counts the amount of seconds elapsed since Jan 1st, 1970 (even when the power's off - there's a small battery on your motherboard that keeps this function running).
 To use the Unix epoch, we first need to import the datetime library
 Ex: import datetime
+-
 You can then insert a date and assign it to a variable. You HAVE to use the year -> month -> day format for your arguments.
 Ex:
 import datetime
 myDate = datetime.date(year=2022, month=12, day= 7)
 print(myDate)
 # This code outputs '2022-12-07'
+-
 You can also use datetime to automatically get today's date.
 Ex:
 import datetime
 today = datetime.date.today()
 print(today)
 # This code outputs the current date from your computer's clock.
+-
 ...or you can get the date from the user as serperate variables.
 Ex:
 import datetime
@@ -74,3 +91,32 @@ month = int(input("Month: "))
 year = int(input("Year: "))
 date = datetime.date(year, month, day)
 print(date)
+-
+Delta is a computer science term that means the difference between two things.
+A time delta is a difference in time.
+Ex:
+import datetime
+
+today = datetime.date.today() # Today's date
+
+difference = datetime.timedelta(days=14) # The difference I want
+
+newDate = today + difference # Add today to the delta difference to see the date in 14 days time.
+
+print(newDate)
+-
+Provided you've formatted the date correctly, you can use the > == and < comparison operators just like you can with integers.
+Ex:
+import datetime
+
+today = datetime.date.today() # Today's date
+
+holiday = datetime.date(year = 2022, month = 10, day = 30) # The date of my holiday
+
+if holiday > today: # If my holiday is in the future
+  print("Coming soon")
+elif holiday < today: #If my holiday date has passed
+  print("Hope you enjoyed it")
+else: # If my holiday date is today
+  print("HOLIDAY TIME!")
+-
