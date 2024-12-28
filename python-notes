@@ -10,6 +10,7 @@ with three quotes, and ends
 in three quotes can span
 many lines and even contain " symbols
 within it without freaking anything out!""")
+END LESSON 1
 
 Day 2: Input
 Input is when the user gives information to the computer.
@@ -29,6 +30,7 @@ You can print your variable using print and the name you used for your variable 
 Ex:
 print(myName)
 print(myAge)
+END LESSON 2
 
 Day 3: Concatenate
 All it really means is combine text (remember, text is called a string) and variables together into single sentences!
@@ -39,7 +41,7 @@ print(myName, "is going to be chowing down on", myLunch, "very soon!")
 -
 With the print function, we can print out as many different things as we please. 
 All we have to do is plant a comma , between every different thing in the ()
-END LESSON
+END LESSON 3
 
 Day 5: If Statements
 These statements are a bit like asking a question. You are telling the computer: if something is true, then do this specific block of code.
@@ -66,7 +68,37 @@ if myName == "David":
 else:
  print("Who on earth are you?!")
 -
-END LESSON
+END LESSON 5
+
+Day 6: Elif and 'and'
+The elif command (which stands for 'elseif') allows you to ask more questions using the same input. 
+You can have as many statements as you want, but they must go in between if and else and have the same indentation.
+The print statements in your elif command need to line up with the indent of the other print statements.
+-
+print("SECURE LOGIN")
+username = input("Username > ")
+
+if username == "mark":
+  print("Welcome Mark!")
+elif username == "suzanne":
+  print("Hey there Suzanne!")
+else:
+  print("Go away!")
+-
+You can also add an 'and' to the if statements to make them more complex.
+-
+print("SECURE LOGIN")
+username = input("Username > ")
+password = input("Password> ")
+
+if username == "mark" and password == "password":
+ print("Welcome Mark!")
+elif username == "suzanne" and password == "Su74nne":
+ print("Hey there Suzanne!")
+else:
+ print("Go away!")
+-
+END LESSON 6
 
 Day 57: Recursion
 Recursion is a type of program where you get a subroutine to call itself. 
@@ -85,7 +117,7 @@ def reverse(value):
     print() # New line
     reverse(value - 2) # takes 2 off the value and calls the subroutine again with this new number. Eg if value was 7 it would call 'reverse(value)' again with value as 5.
 reverse(5)
-END LESSON
+END LESSON 57
 
 Day 58: Debugger
 See lesson
@@ -148,7 +180,7 @@ elif holiday < today: #If my holiday date has passed
 else: # If my holiday date is today
   print("HOLIDAY TIME!")
 -
-END LESSON
+END LESSON 60
 
 Day 63: Multiple Files
 Your programs can consist of more than one python file. 
@@ -188,4 +220,4 @@ import test as tt
 print("Countdown")
 tt.countdown()
 -
-END LESSON
+END LESSON 63
