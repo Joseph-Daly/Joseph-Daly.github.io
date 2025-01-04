@@ -221,3 +221,106 @@ print("Countdown")
 tt.countdown()
 -
 END LESSON 63
+
+Day 64: OOP
+Object Oriented Programming (OOP) is a programming paradigm (a way of thinking about how to solve a problem)
+that is based on classes and objects, which store all of their data and behavoirs inside them.
+A class is like a cookie cutter or a template. It has pre-defined characteristics (shape, size etc).
+Objects are like the cookies created using the cutter...
+They all get the same size and shape, but then we can personalize each one (sprinkles, icing, etc).
+Java, for example, is based on OOP.
+This approach lets us create a template for something like an enemy in a video game, and then use that template to create, say, 20 enemies. 
+Instead of having to code each one individually.
+CLASSES AND INSTANTIATION
+Our first template, or class, is animals. Our class will contain all the characteristics that animals have in common.
+This is just a template. All the characteristics are set to 'None' in the template and
+we will customize these values when we use the template to create each animal. 
+-
+class animal:
+  species = None
+  name = None
+  sound = None
+  # Sets the characteristics
+-
+The values will be passed as arguments into the __init__ subroutine inside each animal object.
+We also want to create a subroutine called init (short for initialisation) 
+which tells the class what to do when it is used to create each instance of an animal.
+-
+class animal:
+  species = None
+  name = None
+  sound = None
+  # Sets the characteristics
+
+  def __init__(self, name, species, sound):
+    self.name = name
+    self.species = species
+    self.sound = sound
+-
+Instantiation means 'use the template to create an object'. Like pressing the cutter into the dough to make a cookie.
+
+👉 Let's instantiate a dog object and output his name.
+-
+class animal:
+  species = None
+  name = None
+  sound = None
+  # Sets the characteristics
+
+  def __init__(self, name, species, sound):
+    self.name = name
+    self.species = species
+    self.sound = sound
+
+##### THE NEW BIT ################
+dog = animal("Brian", "Canine", "Woof")
+# Use the animal class to create a new object called 'dog' with the following parameters.
+print(dog.name)
+-
+👉 I can use the animal() class to create as many different animals as I want.
+-
+class animal:
+  species = None
+  name = None
+  sound = None
+  # Sets the characteristics
+
+  def __init__(self, name, species, sound):
+    self.name = name
+    self.species = species
+    self.sound = sound
+
+dog = animal("Brian", "Canine", "Woof")
+print(dog.name)
+
+##### THE NEW BIT ################
+cow = animal("Ermintrude", "Bo Taurus", "Moo")
+print(cow.sound)
+-
+Subroutines inside an object are called methods.
+
+👉 Let's create a talk method inside the animal class. This can then be used by both our dog and cow objects.
+-
+class animal:
+  species = None
+  name = None
+  sound = None
+  # Sets the characteristics
+
+  def __init__(self, name, species, sound):
+    self.name = name
+    self.species = species
+    self.sound = sound
+
+  def talk(self):
+    print((f"{self.name} says {self.sound}")) 
+  # 'self' means 'use the identifier given to the object that is accessing this method'. 
+  # So If I use it with dog it will become 'dog.talk()' etc.
+
+dog = animal("Happy", "Canine", "Woof")
+dog.talk()
+
+cow = animal("Betsy", "Bo Taurus", "Moo")
+cow.talk()
+-
+TBC
