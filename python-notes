@@ -117,8 +117,18 @@ elif tvShow == "one piece":
 else:
   print("nice")
 -
-END LESSSON 7
+END LESSON 7
 
+Day 8: or
+A Logical Condition (and, or, not) like 'or' comes in handy by conjoining if statements which allows multiple inputs.
+-
+name = input("Name: ")
+if name == "Joe" or name == "joe":
+  print("Yo Joe")
+-
+END LESSON 8
+
+Day 9: Casting
 
 
 Day 57: Recursion
@@ -461,3 +471,4 @@ def updateLabel():
 -
 TO BE CONTINUED
 
+Day 67: tkinter
