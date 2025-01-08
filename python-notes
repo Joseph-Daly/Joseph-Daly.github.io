@@ -100,6 +100,27 @@ else:
 -
 END LESSON 6
 
+Day 7: Nesting
+Nesting is where we put an if statement within an if statement by indenting.
+The second if statement within the first if statement must be indented and its print statement needs to be indented one more time.
+-
+tvShow = input("What is your favorite tv show? ")
+if tvShow == "dbz":
+  print("Oh Yeah!")
+  faveCharacter = input("Who is your favorite character? ")
+  if faveCharacter == "goku":
+    print("KAMEHAMEHA")
+  else:
+    print("not goku?")
+elif tvShow == "one piece":
+  print("Straw Hat pirates, baby")
+else:
+  print("nice")
+-
+END LESSSON 7
+
+
+
 Day 57: Recursion
 Recursion is a type of program where you get a subroutine to call itself. 
 Recursion lets us solve problems in a more human way. 
@@ -323,4 +344,120 @@ dog.talk()
 cow = animal("Betsy", "Bo Taurus", "Moo")
 cow.talk()
 -
-TBC
+TO BE CONTINUED
+
+Day 66 GUIs
+Today we learn how to create a Graphical User Interface (GUI) with a Python library called tkinter.
+tkinter is one of the more popular Python GUI libraries.
+When you start a tkinter project, you get some boilerplate, or starter code.
+-
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Hello World") # Sets the name of the window in the border
+window.geometry("300x300") # Sets the size of the window in pixels
+
+hello = tk.Label(text = "Hello World") # Creates a text box
+hello.pack() # 'pack' places the element on the screen
+
+button = tk.Button(text = "Click me!") # Creates a button
+button.pack()
+
+tk.mainloop()
+-
+This code will produce a window
+
+We can also use variables to pass strings into labels like this:
+-
+label = "Hey there world"
+hello = tk.Label(text = label)
+-
+Now I'm going to use a subroutine that changes the text in the label when I click the button.
+-
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Hello World") 
+window.geometry("300x300") 
+
+label = "Hey there world"
+
+def updateLabel():
+  label = "Bye world!"
+  hello["text"] = label 
+  # Subroutine that updates the text in the label.
+
+hello = tk.Label(text = label) 
+hello.pack() 
+
+button = tk.Button(text = "Click me!", command = updateLabel) # Calls the updateLabel subroutine when the button is clicked
+button.pack()
+
+tk.mainloop()
+-
+Let's try the same trick, only this time the label contains a number which goes up with every button click. 
+For this I need to use a global label variable.
+-
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Hello World") 
+window.geometry("300x300") 
+
+label = 0 # Sets the starting label value to 0
+
+def updateLabel():
+  global label # Uses the values in the label variable
+  label += 1 # Adds one to the value in the label
+  hello["text"] = label 
+
+
+hello = tk.Label(text = label) 
+hello.pack() 
+
+button = tk.Button(text = "Click me!", command = updateLabel) # Calls the updateLabel subroutine when the button is clicked
+button.pack()
+
+tk.mainloop()
+-
+We can add text boxes to our windows using the nifty text command.
+-
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Hello World") 
+window.geometry("300x300") 
+
+label = 0
+
+def updateLabel():
+  global label
+  label += 1 
+  hello["text"] = label 
+
+
+hello = tk.Label(text = label) 
+hello.pack() 
+
+button = tk.Button(text = "Click me!", command = updateLabel) 
+button.pack()
+
+text = tk.Text(window ,height=1, width = 50)
+text.pack()
+# Three arguments, name of the window to place the text box in, height & width
+tk.mainloop()
+-
+FAILED CODE
+Let's make our program add the number in the text box to the number in the label when the button is pressed.
+To do this, we need to change the updateLabel subroutine.
+-
+def updateLabel():
+  global label
+  number = text.get("1.0","end") 
+  # Gets the number from the text box and stores in the number variable
+  number = int(number) #Casts to an integer.
+  label += number # Adds the number from the text box to the one in the label.
+  hello["text"] = label
+-
+TO BE CONTINUED
+
