@@ -503,3 +503,36 @@ ask = hash(ask) # Hash the input
 if ask == db["david"]: #compare hash of input to stored hash.
   print("Login successful")
 -
+SALT
+Hashing is great, but advanced hackers have created their own database containing hashes of pretty much every word.
+To combat this, generate a random value and add it to the end of your password before hashing. This random value is called a salt.
+-
+from replit import db
+
+password = "Baldy1"
+salt = 10221
+
+newPassword = f"{password}{salt}" # append the salt
+newPassword = hash(newPassword) # hash the lot
+
+print(newPassword)
+-
+If we have a second user with the same password, the uniquely generated salt  will produce a completely different hash.
+To deal with this, we'd need our database to store the hashed password and the salt. We do this using a dictionary.
+-
+...
+db["david"] = {"password":newPassword, "salt": salt}
+-
+Now update the login system tp pull the salt from the db, add it to the password entered and hash it all.
+After, we compare it the stored hash of the password and salt from before
+-
+...
+ans = input("Password >") # Get the input
+salt = db["david"]["salt"] # Get the salt from the database.
+newPassword = f"{ans}{salt}"
+newPassword = hash(newPassword) # Hash the concatenated string
+
+if newPassword == db["david"]["password"]: #compare hash of newPassword to stored hash.
+  print("Login successful")
+-
+END LESSON
