@@ -472,3 +472,34 @@ def updateLabel():
 TO BE CONTINUED
 
 Day 67: tkinter
+SES LESSON
+
+Day 70: Secrets(replit)
+There is a replit feature to store information in our code that we don't want others to be able to see. Like passwords and such.
+We can make information like this secret in our repls by selecting 'secrets' from the left hand toolbar.
+Secrets are a lot like dictionaries in that they have a key which is used to access a value.
+SEE LESSON FOR MORE
+
+Day 71: Hashing
+A hash is produced by turning your password into a sequence of numbers, then passing it though a hashing algorithm 
+(some mathematical process that is very difficult to reverse engineer). 
+The data spit out of this hashing algorithm is what's stored instead of your actual password.
+-
+from replit import db
+
+userName = "Joey"
+password = "swoleAF"
+password = hash(password)
+db[userName] = password # Stores the hashed password in the database under the username key 'david'
+
+print(password)
+-
+To login a user, we get their password, input it, hash it,
+and compare it to the hash stored in the database because a string will always produce the same hashed value.
+-
+...
+ask = input("Password >") # Get the input
+ask = hash(ask) # Hash the input
+if ask == db["david"]: #compare hash of input to stored hash.
+  print("Login successful")
+-
