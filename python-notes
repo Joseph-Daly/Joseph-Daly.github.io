@@ -535,4 +535,30 @@ newPassword = hash(newPassword) # Hash the concatenated string
 if newPassword == db["david"]["password"]: #compare hash of newPassword to stored hash.
   print("Login successful")
 -
-END LESSON
+END LESSON 71
+
+DAY 76: Flask
+-
+from flask import Flask # Import Flask Class
+
+app = Flask(__name__) # Starts the Flask application. The 'app' variable is a current instance of the Flask application.
+
+
+@app.route('/') # Route the Function
+def index(): # Run the function
+    return '(>l.l)>' # Render the template with a variable
+
+
+@app.route('/home')  # Creates the path to the home page
+def home():  # Subroutine to create the home page
+    page = """
+   ex: github profile script 
+    """
+    # Three quotes - I'm going to write or paste my HTML code here. The HTML gets assigned to the page variable
+    return page  # returns the contents of the page variable
+
+
+app.run(host='0.0.0.0', port=81) # Run the Application (in debug mode)
+-
+
+# Must type /home at the end of the url to see the home page
